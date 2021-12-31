@@ -1,0 +1,10 @@
+type,exclude,date,date_end,what,where,additional_info,additional_info2,url,slides,video,short_cv,order
+education,NA,8/1/19,8/1/21,MA in Psychology,University of Southern California,Advisor: Hok Chio (Mark) Lai,[Thesis](https://digitallibrary.usc.edu/asset-management/2A3BF1SF7UZSD): Incorporating Uncertainty in Design Parameters: A Hybrid Classical-Bayesian Power Analysis Approach for Two-Level Cluster Randomized Trials,https://digitallibrary.usc.edu/asset-management/2A3BF1SF7UZSD,NA,NA,y,NA
+education,NA,9/1/15,5/31/18,BA in Psychology,University of British Columbia,Advisor: Victoria Savalei,Graduate Student Advisor: Cathy Xijuan Zhang,NA,NA,NA,y,NA
+awards,NA,6/1/18,NA,Natural Sciences and Engineering Research Council of Canada (NSERC),University of British Columbia,Conducted online due to the corona pandemic,"CAD $12,900",NA,NA,NA,y,NA
+major_grants,NA,9/1/21,8/31/22,Spencer Foundation,University of Southern California,Role: Graduate Research Assistant,"USD $49,796",NA,NA,NA,y,NA
+service,NA,8/1/19,NA,Ad-hoc Reviewer,Alcohol and Alcoholism,NA,NA,NA,NA,NA,y,NA
+service,NA,9/7/20,NA,Ad-hoc Reviewer,Asian American Journal of Psychology,NA,NA,NA,NA,NA,NA,NA
+teaching,NA,8/15/19,12/31/19,"Teaching assistant, Statistics (PSYC 271)",University of Southern California,"Statistical methods for psychological research, including t-tests, ANOVA, and regressions, with SPSS and R",NA,NA,NA,NA,NA,NA
+teaching,NA,6/16/21,NA,"Co-instructor, Advancing Quantitative Sciences With Monte Carlo Simulation",British Psychological Society,Monte Carlo Simulation on Structural Equation Modeling using the SimDesign Package in R,[Course Materials](https://github.com/marklhc/MCWorkshop),https://github.com/marklhc/MCWorkshop,NA,NA,NA,NA
+teaching,NA,11/18/21,NA,"Guest Lecturer, Multilevel Modeling (PSYC 575)",University of Southern California,Statistical foundations and tools for sample size planning in multilevel studies,[Course Materials](https://psyc575-2021fall.netlify.app/week13.html),https://psyc575-2021fall.netlify.app/week13.html,NA,NA,NA,NA
