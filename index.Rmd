@@ -1,7 +1,8 @@
 ---
-title: "Winnie Wing-Yee Tse"
+title: "Personal Website"
 site: distill::distill_website
 ---
+
 <div class="profile">
   <h2> Winnie Wing-Yee Tse </h2>
   <br>
@@ -14,7 +15,7 @@ site: distill::distill_website
   <a href="wingyeet@usc.edu"><i id="email" class="fas fa-envelope"></i></a>
   <br>
   <br>
-  <p style="text-align: center; font-size: 11px; "><a href="cv/winniewytse_cv.pdf">CV</a></p>
+  <p style="text-align: center; font-size: 10.5px; "><a href="cv/winniewytse_cv.pdf">CV</a></p>
 </div>
 
 
@@ -118,7 +119,6 @@ site: distill::distill_website
       }
       .intro, .profile {
         width: 60%;
-        display: block;
         margin-right: auto;
         margin-left: auto;
       }
@@ -130,9 +130,8 @@ site: distill::distill_website
         display: flex;
         flex-direction: column;
       }
-      #interest #education {
-        width: 60%;
-        display: block;
+      #interest, #education {
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
       }
