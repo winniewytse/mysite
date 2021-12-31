@@ -1,0 +1,141 @@
+---
+title: "Winnie Wing-Yee Tse"
+site: distill::distill_website
+---
+<div class="profile">
+  <h2> Winnie Wing-Yee Tse </h2>
+  <br>
+  <img src="img/wwytse.jpg">
+  <br>
+  <br>
+  <a href="https://github.com/winniewytse"><i id="github" class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/winniewytse/"><i id="linkedin" class="fab fa-linkedin"></i></a>
+  <a href="https://orcid.org/0000-0001-5175-6754"><i id="orcid" class="fab fa-orcid"></i></a>
+  <a href="wingyeet@usc.edu"><i id="email" class="fas fa-envelope"></i></a>
+  <br>
+  <br>
+  <p style="text-align: center; font-size: 11px; "><a href="cv/winniewytse_cv.pdf">CV</a></p>
+</div>
+
+
+<div class="intro">
+
+  <!-- <h3> Hello there, welcome to my personal website! </h3>  -->
+  
+  <!-- I hope you enjoy reading about me and my research :)  -->
+  
+  <h3> About Me </h3>
+  
+  I am a third-year Ph.D. quantitative psychology student at the University of Southern California (USC). I am from Hong Kong and am also a Canadian. 
+  
+  <p style="text-align: center;"><a href="about.html"><button type="button">More about me</button></a></p>
+  
+<div class="bkg-info">
+<div id="education">
+<h3> Education </h3>
+  
+* MA in Psychology, 2021
+    * University of Southern California
+* BA in Psychology, 2018
+    * University of British Columbia
+</div>
+
+<div id="interest">
+<h3> Research Interests </h3>
+    
+  * Psychometrics
+  * Structural Equation Modeling
+  * Multilevel Modeling
+  * Bayesian Statistics
+</div>
+</div>
+
+<p style="text-align: center;"><a href="research.html"><button type="button">More about my research</button></a></p>
+
+</div>
+
+<!-- JS -->
+<script defer src="assets/fontawesome-free-5.15.4-web/js/all.js"></script>
+
+<!-- CSS custom style -->
+<style>
+
+  .profile img {
+    width: 20vw;
+    border-radius: 10%;
+  }
+  .profile {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .profile a {
+      font-size: 220%;
+      padding-right: 1.5%;
+      padding-left: 1.5%;
+  }
+  .profile a:hover{
+    position: relative;
+    top: 5px;
+  }
+  
+  .d-title {
+    display:none;
+  }
+  d-article {
+    display: flex;
+    flex-direction: row;
+  }
+  .intro {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-style: none;
+  }
+  
+  .bkg-info {
+    display: flex;
+    flex-direction: row;
+  }
+  #education {
+    disply: inline-block;
+    width: 55%
+  }
+  #interest {
+    disply: inline-block;
+    width: 45%
+  }
+
+  @media only screen and (max-width: 768px) {
+      d-article {
+        display: flex;
+        flex-direction: column;
+      }
+      .intro, .profile {
+        width: 60%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .profile img {
+        width: 45vw;
+      }
+      
+      .bkg-info {
+        display: flex;
+        flex-direction: column;
+      }
+      #interest #education {
+        width: 60%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+  }
+
+</style>

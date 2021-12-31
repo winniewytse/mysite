@@ -1,0 +1,34 @@
+---
+title: "HCB Approach for Sample Size Planning"
+description: |
+  Hybrid classical-Bayesian approach for designing multilevel studies
+author:
+  - name: Winnie Wing-Yee Tse
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+<a href="https://winnie-wy-tse.shinyapps.io/hcb_shiny/"><button type="button">View App in Full</button></a>
+
+<iframe src="https://winnie-wy-tse.shinyapps.io/hcb_shiny/"></iframe>
+
+<!-- CSS custom style -->
+<style>
+  d-article {
+    text-align: center;
+    display: block;
+    }
+  
+  iframe {
+    width: 80%!important;
+    height: 80vh!important; 
+  }
+  
+  iframe:focus {
+    outline: none;
+  }
+
+  iframe[seamless] {
+    display: block;
+  }
+</style>

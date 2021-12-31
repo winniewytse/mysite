@@ -1,0 +1,27 @@
+---
+title: "Current Research Projects"
+description: |
+author:
+  - name: Winnie Wing-Yee Tse
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+## Incoporting Uncertainty to Sample Size Planning in Multilevel Studies
+
+Standard sample size planning software (e.g., [G*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower), [PowerUpR](https://powerupr.shinyapps.io/index/)) requires an input of parameter values. However, in the study design phase, the parameter values, such as effect size, are by definition unknown. While providing our best educated guess is a common practice, ignoring uncertainty can lead to erroneous sample size calculation. The effect of ignoring uncertainty can exacerbate in multilevel studies, which involve additional parameters, such as intraclass correlation. What should researchers do to address uncertainty about parameter values in sample size planning?
+
+My research develops a hybrid-classical Bayesian (HCB) approach that incorporates uncertainty to sample size planning in multilevel studies. The HCB approach allows researchers to specify no only their best educated guess of the parameter values, but also their uncertainty about those values. This approach realistically calculate the sample size needed in the new study and appropriately control power at the desired level. 
+
+
+## Multilevel Regression and Poststratification on Social Media Data
+
+Prediction of subnational outcomes (e.g., number of covid cases in a county) using language features on social media (e.g., positive emotions and health) has become increasingly popular in psychological research. This task often encounters two major challenges: (a) social media samples are skewed toward certain subgroups, leading to nonrepresentative prediction, and (b) aggregating individual-level textual features at the county level can result in erroneous predictions. Therefore, my research team proposes using (a) postratification, which adjusts the weight of the textual features according to the proportion of the subgroups in the population, to address nonrepresentativeness, and (b) multilevel modeling, which accounts for the hierarchical structure of social media data (e.g., tweets nested within users nested within counties), to address issues with aggregation.
+
+
+## Measurement Invariance on Psychological Scales with Ordered Categorical Items
+
+Psychological scales are often used to measure latent traits, such as personality and beliefs. For valid group comparisons of composite (i.e., sum or mean) scores of a scale, measurement invariance is a prerequisite, which ensures the scale measures the latent traits equivalently across groups. In general, there are four levels of measurement invariance: configural, metric, scalar, and strict. Strict invariance is least often to be tested in practice, because scalar invariance allows valid use of composite scores for scales with continuous items. In my research, I evaluate whether scalar invariance supports valid use of composite scores for scales with ordered-categorical items and provide guidelines on the requirements under different conditions. 
+
+

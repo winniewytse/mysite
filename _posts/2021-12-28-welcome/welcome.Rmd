@@ -1,0 +1,17 @@
+---
+title: "Welcome to WT blog"
+description: |
+  Thank you for visiting WT blog! I hope you enjoy reading my blog posts. 
+author:
+  - name: Winnie Wing-Yee Tse
+date: 12-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Hello there! Welcome to WT blog :) 
+
+I think blogging is a good habit, especially for graduate students like me who would like to practice writing. I will from time to time share about my research, reading thoughts, programming skills, and any useful tips I find helpful with you. Hope that you will find something useful from here. 
+
+Please feel free to share your thoughts with me! 

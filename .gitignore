@@ -37,3 +37,16 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# R project
+*.Rproj
+
+# TODO
+TODO
+
+# cv
+cv/*
+!cv/winniewytse_cv.pdf
+
+# color pallete
+css/color-pallete

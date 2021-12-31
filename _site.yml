@@ -1,0 +1,26 @@
+name: "winniewytse-site"
+title: "| Winnie Tse"
+theme: css/theme.css
+# description: |
+#   Welcome to my blog :)
+output_dir: "_site"
+collections:
+  posts:
+    feed_items_max: 10
+    # disqus: reproducible-finance-with-r
+    # share: [twitter, linkedin]
+navbar:
+  # source_url: https://github.com/rstudio/distill
+  search: true
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Blog"
+      href: blog.html
+    - text: "hcbr"
+      href: hcbr.html
+output: distill::distill_article
