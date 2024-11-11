@@ -1,7 +1,7 @@
 ---
-title: "HCB Approach for Sample Size Planning"
+title: "Bayesian Approach fo Classical Power Analysis (BAC Power)"
 description: |
-  Hybrid classical-Bayesian approach for designing multilevel studies
+  Addressing uncertainty by integrating prior information and theoretical insights for power analysis
 author:
   - name: Winnie Wing-Yee Tse
 date: "`r Sys.Date()`"

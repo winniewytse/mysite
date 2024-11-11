@@ -2,8 +2,6 @@ name: "winniewytse-site"
 title: "| Winnie Tse"
 favicon: img/wwytse_logo_s.png
 theme: css/theme.css
-# description: |
-#   Welcome to my blog :)
 output_dir: "_site"
 base_url: https://winniewytse.netlify.app
 collections:
@@ -17,13 +15,9 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
     - text: "Research"
       href: research.html
-    - text: "Blog"
-      href: blog.html
-    - text: "hcbr"
+    - text: "BACpowr"
       href: hcbr.html
     # - icon: "fas fa-tint"
 output: distill::distill_article

@@ -27,15 +27,15 @@ site: distill::distill_website
   
   <h3> About Me </h3>
   
-  I am a third-year Ph.D. quantitative psychology student at the University of Southern California (USC). I am from Hong Kong and am also a Canadian. 
-  
-  <p style="text-align: center;"><a href="about.html"><button type="button">More about me</button></a></p>
+  I earned my Ph.D. in Quantitative Methods and Computational Psychology at the University of Southern California (USC) in August 2024. Currently, I am working as a psychometrician at [Vretta Inc.](https://www.vretta.com/), providing psychometric services to K-12 assessments in Canada. 
   
 <div class="bkg-info">
 <div id="education">
 <h3> Education </h3>
-  
-* MA in Psychology, 2021
+
+* PhD in Quantitative Methods and Computational Psychology, 2024
+    * University of Southern California
+* MA in Quantitative Methods and Computational Psychology, 2021
     * University of Southern California
 * BA in Psychology, 2018
     * University of British Columbia

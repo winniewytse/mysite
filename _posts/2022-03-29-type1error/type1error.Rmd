@@ -1,0 +1,64 @@
+---
+title: "Are Type I and Type II error rates conditional probabilities?"
+description: |
+  
+author:
+  - name: Winnie Wing-Yee Tse
+    url: {}
+date: 03-29-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+
+A quick answer is---No from the classcial/frequentist perspective, but Yes from the Bayesian perspective. 
+
+A fundamental difference between these two perspectives is whether data or parameters are treated as fixed or random. Frequentists regard data as random but parameters as fixed, whereas Bayesians treat data as fixed but parameters as random. 
+
+To be more concrete, suppose that our parameter of interest is the mean difference on depression between a group of participants on the cognitive-behavioral therapy (treatment group) and another group of participants on a control program. Data is the information we will collect after participants completed the program and reported their depression level. After collecting data, we test against the null hypothesis that the mean difference is zero, $H_0: \mu = 0$, against a two-sided alternative hypothesis that the two group has different means of depression level, $H_A: \mu \neq 0$. 
+
+## Frequentist perspective
+
+Frequentist inference is about long-run probability, that is, how frequent an event (e.g., rejecting $H_0$) occurs over many times of repeated samples. It posits that the population $\mu$ has a fixed value and the randomness we observe in the data is due to sampling variability. 
+
+Suppose that the population mean difference is .5, we conducted this study 10 times, each we recruited 50 participants in each treatment group. Let's simulate some data to visualize the situation. 
+
+```{r}
+# number of studies
+n_study <- 10
+# group size
+group_size <- 50
+# initialize a empty vector to store the mean differences for each study
+mean_diff <- rep(NA, n_study)
+# set seed for replicability
+set.seed(123)
+
+# write a for loop to repeat the sampling process 10 times
+for (i in 1:n_study) {
+  # simulate data for treatment (mean = .5) and control (mean = 0)
+  treatment <- rnorm(n = group_size, mean = .5, sd = 1)
+  control <- rnorm(n = group_size, mean = 0, sd = 1)
+  mean_diff[i] <- mean(treatment) - mean(control)
+}
+```
+
+We observe the estimated mean differences in these studies to be
+
+```{r}
+round(mean_diff, 2)
+```
+
+Although the population mean difference is .5, each of our 10 studies found different estimated mean differences, some lower and some higher than .5. As each sample (n = 100) is not massively large, our studies yield different estimated mean differences around the population mean difference. From the frequentist perspective, the randomness we observed in the data is due to sampling variability. 
+
+
+## Bayesian perspective
+
+Note that in the above example, in the frequentist framework, the population mean difference is fixed at .5, and the data are random, resulting in different estimated mean differences. Contrarily, Bayesian inference regards parameters (e.g., $\mu$) as random due to two sources of uncertainty---epistemic and aleatory. In practice, we almost never know the population mean difference, and our uncertainty about the parameter value is the epistemic uncertainty. After collecting more data, in the Bayesian framework, we can update our belief (or knowledge) about the mean difference and thus reduce the epistemic uncertainty. Aleatory uncertainty 
+
+
+
